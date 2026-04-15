@@ -34,6 +34,5 @@ public class CellPhoneApplication {
         System.out.println("Your phone's phone number is: " + userPhone.getSerialNumber());
         System.out.println("Your phone's owner is: " + userPhone.getUserName());
 
-
     }
 }

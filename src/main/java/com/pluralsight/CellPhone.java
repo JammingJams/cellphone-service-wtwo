@@ -37,5 +37,4 @@ public class CellPhone {
         return this.userName;
     }
 
-
 }
