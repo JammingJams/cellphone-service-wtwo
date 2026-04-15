@@ -9,7 +9,7 @@ public class CellPhone {
     private String userName;
     private String dial;
 
-    public CellPhone(int serialNumber, String model, String carrier, String phoneNumber, String userName) {
+    public CellPhone() {
         this.serialNumber = serialNumber;
         this.model = model;
         this.carrier = carrier;
@@ -19,21 +19,42 @@ public class CellPhone {
 
     }
 
+    public void setSerialNumber(int serialNumber) {
+       this.serialNumber = serialNumber;
+    }
+
 
     public int getSerialNumber() {
         return  this.serialNumber;
     }
 
+    public void setModel(String model) {
+        this.model = model;
+    }
+
+
     public String getModel() {
         return this.model;
+    }
+
+    public void setCarrier(String carrier) {
+        this.carrier = carrier;
     }
 
     public String getCarrier() {
         return this.carrier;
     }
 
+    public void setPhoneNumber(String phoneNumber) {
+        this.phoneNumber = phoneNumber;
+    }
+
     public String getPhoneNumber() {
         return this.phoneNumber;
+    }
+
+    public void setUserName(String userName) {
+        this.userName = userName;
     }
 
     public String getUserName() {
